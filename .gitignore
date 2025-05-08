@@ -1,0 +1,38 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Java 编译输出
+/out/
+target/
+bin/
+build/
+
+# Maven
+/logs/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# 临时文件
+*.swp
+*.tmp
+*.bak
+*.~*
+.DS_Store
+Thumbs.db
+
+# 操作系统文件
+ehthumbs.db
+desktop.ini
+
+# 编译日志
+hs_err_pid*
+replay_pid*
+
+# 本地环境变量配置
+*.env
+.env.*
