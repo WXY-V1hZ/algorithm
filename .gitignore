@@ -36,3 +36,6 @@ replay_pid*
 # 本地环境变量配置
 *.env
 .env.*
+
+*.txt
+Z.java

@@ -35,7 +35,7 @@ public class MergeSort {
         reader.close();
     }
 
-    /**
+    /*
      * T(n) = 2 * T(n / 2) + O(n)
      * a = 2, b = 2, c = 1
      * 时间复杂度为 O(n * logn)
