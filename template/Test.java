@@ -1,36 +1,15 @@
-import java.io.*;
-import java.util.*;
+public class Main {
+    public static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    public static StreamTokenizer in = new StreamTokenizer(reader);
+    public static PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
 
-public class Test {
-    public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        StreamTokenizer in = new StreamTokenizer(reader);
-        PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
+    public static int MAXN = (int) 1e5;
+    public static int[] arr = new int[MAXN];
 
-        List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4));
-        for (int i = 0; i < list.size(); ++i) {
-            out.print(list.get(i) + " ");
-        }
-        out.println();
-
-        ListIterator<Integer> iterator = list.listIterator();
-        while(iterator.hasNext()) {
-            out.println(iterator.next());
-        }
-        while(iterator.hasPrevious()) {
-            out.println(iterator.previous());
-        }
-
-        list.removeIf(num -> num % 2 == 0);
-        out.println(list);
-
-        if (true) {
-            out.println("test1");
-        }
-        if (false) {
-            out.println("test0");
-        }
-
+    public static void main(String[] args) {
+        
+        
+        
         out.flush();
         out.close();
         reader.close();

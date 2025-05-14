@@ -1,5 +1,5 @@
 import java.io.*;
-public class BaseMaxHeap {
+public class HeapSort {
     public static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     public static StreamTokenizer in = new StreamTokenizer(reader);
     public static PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
